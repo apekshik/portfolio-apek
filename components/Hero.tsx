@@ -7,11 +7,16 @@ import TypeWriter from 'typewriter-effect'
 function Hero() {
   return (
     <div>
-      <div class="bg-[url('/wallpapers/L1.jpeg')] bg-fixed bg-cover h-screen w-full">
+      {/* class="bg-[url('/wallpapers/L1.jpeg')] bg-fixed bg-cover h-screen w-full" */}
+      <div class="relative">
 
+        
+        <div class="h-screen">
+          <Image src="/wallpapers/L1.jpeg" layout='fill' alt=""/>
+        </div>
         <Navbar />
 
-        <div class="relative items-center text-white flex flex-col">
+        <div class="relative items-center z-0 text-white flex flex-col">
             <h1 class="text-6xl"> Apekshik Panigrahi </h1>
             <h4 class="text-3xl mt-3">
               <TypeWriter 
@@ -19,7 +24,7 @@ function Hero() {
                   strings: [
                     "iOS Developer",
                     "NextJS and Tailwind CSS",
-                    "Firebase and GCP"
+                    "Firebase and GCP",
                   ],
                   changeDelay: 2, // Weirdly throws an error for the linter in VSCode. Ignore that.
                   changeDeleteSpeed: 1,
