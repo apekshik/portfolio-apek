@@ -11,19 +11,18 @@ function Hero() {
 
         <Navbar />
 
-        <div class="container items-center text-white flex flex-col">
+        <div class="relative items-center text-white flex flex-col">
             <h1 class="text-6xl"> Apekshik Panigrahi </h1>
             <h4 class="text-3xl mt-3">
               <TypeWriter 
                 options={{
                   strings: [
-                    "Founder of Asterisk Inc.",
                     "iOS Developer",
                     "NextJS and Tailwind CSS",
                     "Firebase and GCP"
                   ],
-                  changeDelay: 3, // Weirdly throws an error for the linter in VSCode. Ignore that.
-                  changeDeleteSpeed: 2,
+                  changeDelay: 2, // Weirdly throws an error for the linter in VSCode. Ignore that.
+                  changeDeleteSpeed: 1,
                   autoStart: true,
                   loop: true,
                 }} 
