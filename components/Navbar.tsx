@@ -24,7 +24,7 @@ function Navbar() {
           {/* Download Resume Button */}
           <div className="hidden md:flex">
             <a className="flex border rounded-[5px] p-2 items-center gap-2 
-                hover:bg-red-100 hover:text-red-400
+                hover:bg-slate-500 hover:text-white
                 transition duration-200"> Download Resume </a>
           </div>
         </div> {/* End of flex container for Navbar */}
