@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 
 export default function Home() {
   return (
-    <div className="hide-scrollbar">
+    <div class="hide-scrollbar">
       <Hero />
     </div>
   )
