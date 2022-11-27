@@ -8,13 +8,9 @@ function Hero() {
   return (
     <div>
       {/* class="bg-[url('/wallpapers/L1.jpeg')] bg-fixed bg-cover h-screen w-full" */}
-      <div class="relative">
+      <div class="bg-[url('/wallpapers/L1.jpeg')] bg-fixed bg-cover h-screen w-full">
 
-        
-        <div class="h-screen">
-          <Image src="/wallpapers/L1.jpeg" layout='fill' alt=""/>
-        </div>
-        <Navbar />
+        <Navbar/>
 
         <div class="relative items-center z-0 text-white flex flex-col">
             <h1 class="text-6xl"> Apekshik Panigrahi </h1>
