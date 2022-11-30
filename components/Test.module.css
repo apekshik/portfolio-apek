@@ -1,0 +1,17 @@
+.parent {
+    background-color: goldenrod;
+    padding: 6px;
+}
+
+.child_one {
+    background-color: blue;
+}
+
+.child_two {
+    background-color: green;
+}
+
+.child_three {
+    background-color: yellow;
+}
+
