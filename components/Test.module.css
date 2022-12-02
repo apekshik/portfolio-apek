@@ -5,10 +5,13 @@
 
 .child_one {
     background-color: blue;
+    position: relative;
+    z-index: -1;
 }
 
 .child_two {
     background-color: green;
+    position: relative;
 }
 
 .child_three {
