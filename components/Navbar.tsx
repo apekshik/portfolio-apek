@@ -6,7 +6,7 @@ import { FiMenu } from 'react-icons/fi'
 function Navbar() {
   return (
     <>
-      <nav class="relative p-5">
+      <nav class="absolute w-full p-5">
         {/* Flex container for NavBar */}
         <div class="flex items-center justify-between">
           {/* Menu Bar button */}
@@ -17,6 +17,7 @@ function Navbar() {
           <div class="hidden md:flex space-x-12">
             <Link href="">Home</Link>
             <Link href="">About</Link>
+            <Link href="">Blog</Link>
             <Link href="">Portfolio</Link>
             <Link href="">Contact</Link>
           </div>
