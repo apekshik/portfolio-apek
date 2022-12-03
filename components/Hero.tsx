@@ -14,12 +14,11 @@ function Hero() {
       <div class="">
         <img src="wallpapers/L1.jpeg" class="fixed w-full z-[-1] "></img>  
         
-        
         <Navbar/>
 
-        <div class="relative h-screen z-[1] text-white text-center top-[40vh]">
-          <h1 class="text-4xl md:text-8xl"> Apekshik Panigrahi </h1>
-          <h4 class="text-2xl mt-3 md:text-4xl">
+        <div class="relative h-screen z-[1] text-[#0a354f] text-center top-[40vh]">
+          <h1 class="text-4xl md:text-8xl font-bold"> Apekshik Panigrahi </h1>
+          <h4 class="text-2xl mt-3 md:text-4xl font-bold">
             <TypeWriter 
               options={{
                 strings: [
