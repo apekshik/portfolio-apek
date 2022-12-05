@@ -11,34 +11,35 @@ function Hero() {
         "bg-[url('/wallpapers/L1.jpeg')] bg-fixed bg-cover h-screen w-full" */}
 
       {/* First page of home page */}
-      <div class="">
-        <img src="wallpapers/L1.jpeg" class="fixed w-full z-[-1] "></img>  
+      <div className="">
+        <img src="wallpapers/L1.jpeg" className="fixed w-full z-[-1] "></img>  
         
         <Navbar/>
 
-        <div class="relative h-screen z-[1] text-[#0a354f] text-center top-[40vh]">
-          <h1 class="text-4xl md:text-8xl font-bold"> Apekshik Panigrahi </h1>
-          <h4 class="text-2xl mt-3 md:text-4xl font-bold">
+        <div className="relative h-screen z-[1] text-[#0a354f] text-center top-[40vh]">
+          <h1 className="text-4xl md:text-8xl font-semibold"> Apekshik Panigrahi </h1>
+          <h4 className="text-2xl mt-3 md:text-4xl">
             <TypeWriter 
               options={{
                 strings: [
                   "iOS Developer",
-                  "NextJS and Tailwind CSS",
-                  "Firebase and GCP",
+                  "NextJS, React, and Tailwind",
+                  "Firebase, GCP, and AWS",
+                  "Swift, C++, Python"
                 ],
                 changeDelay: 2, // Weirdly throws an error for the linter in VSCode. Ignore that.
                 changeDeleteSpeed: 1,
                 autoStart: true,
                 loop: true,
               }} 
-            /> 
+            />
           </h4>
         </div>
       </div> 
 
       
       {/* Second Page of Home Page*/}
-      <div class="h-[50vh] bg-slate-200">
+      <div className="h-[50vh] bg-slate-200">
       </div>
     </div>
   )

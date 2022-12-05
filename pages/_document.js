@@ -1,4 +1,5 @@
 
+// THis file allows us to add custom fonts. I've added Raleway from google fonts in the <Head> portion below.
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
