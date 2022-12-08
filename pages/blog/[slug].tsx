@@ -20,7 +20,7 @@ export default function PostPage({ frontmatter: {title, date, cover_image}, slug
           <h1 className="text-3xl">{title}</h1>
           <h2>Posted on {date}</h2> 
           <div
-            className="prose prose-stone prose-lg max-w-none bg-slate-100/75 w-[80vw] p-3 " 
+            className="prose prose-lg max-w-none bg-slate-100/80 w-[80vw] p-3 " 
             dangerouslySetInnerHTML={{__html: marked(content)}}
           />
         </div>

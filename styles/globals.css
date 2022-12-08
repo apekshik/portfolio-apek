@@ -6,3 +6,11 @@ html {
   scroll-behavior: smooth;
   font-family: 'Raleway', sans-serif;
 }
+
+.prose :where(code):not(:where([class~="not-prose"] *))::before {
+  content: "";
+}
+
+.prose :where(code):not(:where([class~="not-prose"] *))::after {
+  content: "";
+}

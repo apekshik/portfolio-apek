@@ -3,7 +3,7 @@ import path from 'path' // need it in the getSTaticProps() method to fetch path 
 import matter from 'gray-matter'
 import Test from '../components/Test'
 import BlogNavbar from '../components/blogNavbar'
-import Post from '../components/Post'
+import PostCard from '../components/PostCard'
 
 // Main function to be exported
 export default function Blog({ posts }: any) {
@@ -11,14 +11,15 @@ export default function Blog({ posts }: any) {
   return (
     <div>
       
-      <img src="wallpapers/L2.jpeg" className="fixed w-full z-[-1]"></img>
+      {/* adding trailingSlash: true to next.config.js causes this image loading to fail */}
+      <img src="/wallpapers/L2.jpeg" className="fixed w-full z-[-1]"></img>
       
       <BlogNavbar />
 
       {/* Posts */}
       <div className="flex flex-col space-y-3 p-4">
         {posts.map((post: any, index: any) => (
-          <Post key={index} post={post} />
+          <PostCard key={index} post={post} />
         ))}
       </div>
       

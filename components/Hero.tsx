@@ -12,7 +12,7 @@ function Hero() {
 
       {/* First page of home page */}
       <div className="">
-        <img src="wallpapers/L1.jpeg" className="fixed w-full z-[-1] "></img>  
+        <img src="/wallpapers/L1.jpeg" className="fixed w-full z-[-1] "></img>  
         
         <Navbar/>
 
